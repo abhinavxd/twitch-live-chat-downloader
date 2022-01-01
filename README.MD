@@ -40,7 +40,7 @@ func main() {
 			continue
 		}
 
-		// Optionally you can Parse tags which returns a Message struct
+		// Optionally you can Parse tags which returns a Message
 		// Or you can use the raw twitch WS tags
 		parsedMsg, err := twitch_chat.ParseTags(message)
 		
