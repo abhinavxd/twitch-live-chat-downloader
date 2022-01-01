@@ -1,6 +1,6 @@
 # twitch-live-chat-downloader
 
-![pepe](https://user-images.githubusercontent.com/48166553/147852858-7ecc4ece-ebcb-4b75-a6a2-752bbeb896fa.gif) Fetch Twitch chat feed without any authentication
+![pepe](https://user-images.githubusercontent.com/48166553/147852858-7ecc4ece-ebcb-4b75-a6a2-752bbeb896fa.gif) Twitch chat feed without any authentication
 
 
 ## How does it work?
