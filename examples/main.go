@@ -17,16 +17,22 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	for {
 		message, err := twitch_chat.FetchMessages()
 		
 		if err != nil {
 			log.Println(err)
+			// Reconnect websocket connection
+			err := twitch_chat.InitializeConnection(CHANNEL_NAME)
+			if err != nil {
+				log.Println(err)
+			}
 			continue
 		}
 
-		// Optionally you can Parse tags which returns a Message struct
-		// Or you can use the raw twitch WS tags
+		// Optionally you can Parse IRC tags which returns a Message struct
+		// Or you can use the IRC tags directly
 		parsedMsg, err := twitch_chat.ParseTags(message)
 		
 		if err != nil {
