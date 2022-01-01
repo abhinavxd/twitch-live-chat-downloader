@@ -82,8 +82,8 @@ func parseUserType(userType string) string {
 	return ""
 }
 
-// Parse twitch ws response and return Message struct
-// Example of ws new chat message response-
+// Parse twitch IRC tags and return a `Message`
+// Example of IRC tags in new ws message-
 //
 // @badge-info=;badges=;client-nonce=3b6178753cbb5d5654e546105f1b3714;color=#009EC3;
 // display-name=killertrip7;emotes=;first-msg=0;flags=;id=ec1296ae-c5f2-4eec-bf88-74b0088689fb;mod=0;
