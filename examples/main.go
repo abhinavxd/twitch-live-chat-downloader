@@ -23,7 +23,8 @@ func main() {
 			continue
 		}
 
-		// Optionally you can Parse messages which returns a Message struct
+		// Optionally you can Parse tags which returns a Message struct
+		// Or you can use the raw twitch WS tags
 		parsedMsg, err := twitch_chat.ParseTags(message)
 		
 		if err != nil {
@@ -31,6 +32,6 @@ func main() {
 			continue
 		}
 
-		fmt.Printf("%+v\n", parsedMsg)
+		fmt.Printf("%+v\n\n", parsedMsg)
 	}
 }

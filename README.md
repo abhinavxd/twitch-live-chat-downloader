@@ -1,1 +1,0 @@
-# twitch-live-chat-downloader
