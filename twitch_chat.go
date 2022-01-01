@@ -180,7 +180,8 @@ func ParseTags(tagsB string) (Message, error) {
 	}, nil
 }
 
-// initalizes connection to twitch chat
+// Opens a websocket connection to twitch chat
+// Call this function again to reconnect
 func InitializeConnection(channel_name string) error {
 	u := url.URL{Scheme: "wss", Host: TWITCH_WS_URL}
 

@@ -26,6 +26,8 @@ import (
 const CHANNEL_NAME = "aceu"
 
 func main() {
+	// Open a websocket connection to twitch chat
+	// Call this function again to reconnect
 	err := twitch_chat.InitializeConnection(CHANNEL_NAME)
 	if err != nil {
 		log.Fatal(err)
