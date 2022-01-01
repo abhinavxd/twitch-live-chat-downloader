@@ -52,7 +52,7 @@ func main() {
 }
 ```
 
-![Screenshot from 2022-01-01 15-35-02](https://user-images.githubusercontent.com/48166553/147848280-7a5daaf1-a03c-4e3d-a93f-f4817cddcda9.png)
+![Screenshot from 2022-01-01 15-44-34](https://user-images.githubusercontent.com/48166553/147848396-b6c40ce9-87bf-42d0-8a41-ee1c9949c902.png)
 
 
 <!-- CONTRIBUTING -->
