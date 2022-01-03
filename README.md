@@ -46,7 +46,7 @@ func main() {
 			continue
 		}
 
-		// Optionally you can Parse IRC tags which returns a Message struct
+		// Optionally you can Parse IRC tags which returns a `Message`
 		// Or you can use the IRC tags directly
 		parsedMsg, err := twitch_chat.ParseTags(message)
 		
